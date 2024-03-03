@@ -235,10 +235,16 @@ ul li span{
 
 }
 
-.section2 ul:hover{
+.section2 .div3 .vertical .libraries:hover {
+    box-shadow: 1px 1px 15px white;
+}  
+
+.section2 .div3 .vertical .tools:hover {
     box-shadow: 1px 1px 15px white;
 }
-
+ .section2 .div3 .tech ul:hover{
+    box-shadow: 1px 1px 15px white;
+ }  
 
 .section2 .tech ul li h3{
     color:black;
