@@ -7,8 +7,11 @@
 }
 .section1{
     background:url(gradient.avif);
-    width:100%;
-    height:100%;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 .header{
     color:#FCFBFC;
@@ -87,9 +90,12 @@ font-weight:700px;
 }
 
 .education{
-    box-sizing: border-box;
-    width:100%;
-    height:100%;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+
 }
 
 .main{
@@ -182,6 +188,11 @@ ul li span{
 
 .section2{
     background-color: #001E24;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 .heading2{
     font-size:3.2rem;
@@ -206,7 +217,7 @@ ul li span{
 .section2 .tech ul {
     width:100%;
     height: auto;
-    padding-top:30px;
+    padding-top:20px;
     padding-bottom:20px;
    padding-left:40px;
    padding-right:70px;
@@ -252,16 +263,14 @@ ul li span{
     margin-bottom:30px;
 
 }
-.section2 .div3 .vertical .tools ul:hover {
+.section2 .div3 .vertical ul:hover {
     box-shadow: 1px 1px 15px white;
 }
-
-
 
 .section2 .tools{
     width:100%;
     height: auto;
-    padding-top:20px;
+    padding-top:15px;
     padding-bottom:20px;
    padding-left:40px;
    padding-right:70px;
@@ -295,54 +304,33 @@ ul li span{
 }
 
 .section3{
-    box-sizing: border-box;
-    width:100%;
-    height:100%;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 .section3 .heading2{
     color:#001E24;
 }
+ 
+.section3 .tit{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:400px;
+}
 
-.project-box {
-    width:100%;
-    height: auto;
-    padding-top:30px;
-    padding-bottom:20px;
-   padding-left:40px;
-   padding-right:70px;
+.section3 .tit div{
+    height:370px;
+    width:335px;
+    background:white;
+    margin:60px;
+    text-align:center;
+    padding:15px 20px;
     background-color:#fff;
+    box-shadow: 1px 1px 25px #001E24;
     border-radius:10px;
     margin-bottom:30px;
-    margin-left:70px;
-}
-
-.project-box img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.project-box h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.project-box p {
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.project-box a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 3px;
-}
-
-.project-box a:hover {
-    background-color: #555;
+    z-index:99;
 }
